@@ -20,7 +20,7 @@ CREATE TABLE invoices (
 );
 
 CREATE TABLE treatments (
-  id                INT REFERENCES medical_histories(id),
+  id                INT PRIMARY KEY REFERENCES medical_histories(id),
   type              VARCHAR,
   name              VARCHAR,
 );
