@@ -1,0 +1,1 @@
+CREATE INDEX idx_treatments_id ON treatments (id)
